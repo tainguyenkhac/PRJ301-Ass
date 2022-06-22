@@ -10,30 +10,32 @@ package model;
  */
 public class Account {
     private String username;
-    private String pass;
-    private String role;
+    private String password;
+    private int role;
 
-    public String getUsername() {
+    public String getUserName() {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUserName(String username) {
         this.username = username;
     }
 
     public String getPass() {
-        return pass;
+        return password;
     }
 
-    public void setPass(String pass) {
-        this.pass = pass;
+    public void setPassWord(String password) {
+        this.password = password;
     }
 
-    public String getRole() {
+    public int getRole() {
         return role;
     }
 
-    public void setRole (String role) {
+    public void setRole(int role) {
         this.role = role;
     }
+
+    
 }
